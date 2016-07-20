@@ -34,7 +34,7 @@ public class Hello extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("<form action='Display.view' method='post'>");
-		out.println("Email");
+		out.println("username");
 		out.println("<input type='text' name='email'> ");
 		out.println("Password<input type='password' name='password'> ");
 		out.println("<input type='submit' value='login'>");
